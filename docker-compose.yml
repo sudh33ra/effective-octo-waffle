@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  erp-support-api-gw:
+    build: .
+    environment:
+      WERKZEUG_DEBUG_PIN: 123-123-123
+    ports:  
+      - 5000:5000
